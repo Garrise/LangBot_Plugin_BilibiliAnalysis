@@ -8,7 +8,7 @@ from pkg.platform.types import *
 当收到B站视频链接时，对B站链接进行分析并发送封面，标题，作者，等内容
 '''
 #注册插件
-@register(name='BiliAnalysis', description='当收到B站视频链接时，对B站链接进行分析并发送封面，标题，作者，等内容', version='0.2', author="Hanschase")
+@register(name='BiliAnalysis', description='当收到B站视频链接时，对B站链接进行分析并发送封面，标题，作者，等内容', version='0.3', author="Hanschase")
 class BiliAnalysisPlugin(BasePlugin):
     #插件加载时触发
     def __init__(self, host: APIHost):
